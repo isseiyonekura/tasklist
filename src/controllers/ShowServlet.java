@@ -18,7 +18,7 @@ import utils.DBUtil;
  */
 @WebServlet("/show")
 public class ShowServlet extends HttpServlet {
-    private static final long serialVersionUID = 1L;
+        private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
@@ -43,7 +43,5 @@ public class ShowServlet extends HttpServlet {
 
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/messages/show.jsp");
         rd.forward(request, response);
-
     }
-
 }
